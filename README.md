@@ -1,6 +1,6 @@
 # 🗺️ Wendy's Portfolio
 
-# 📍 Geospatial Portfolio — Wendy
+
 
 Welcome! This space gathers a selection of my work as a Geospatial Analyst and Remote Sensing Specialist, focused on conservation, sustainable development, and humanitarian contexts.
 

@@ -15,12 +15,12 @@ DAI, USAID's Destination Nature Activity
 - Strengthen evidence-based decision-making for adaptive management of nature-based tourism projects.
 - Identify strategies to enhance ecosystem recovery in areas showing signs of vegetation stress.
 
-### 🛤️ Methodological Approach
+## 🛤️ Methodological Approach
 
 1. Context Review & Data Gathering
-  - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.
-  - Collected and normalized monthly PlanetScope imagery for each tourism corridor.
-  - Mosaicked tiles to create seamless image coverage with precise spatial alignment.
+    - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.
+    - Collected and normalized monthly PlanetScope imagery for each tourism corridor.
+    - Mosaicked tiles to create seamless image coverage with precise spatial alignment.
 
 2. Study Area Delimitation
 Used vector shapefiles to clip mosaics to the extent of each corridor.

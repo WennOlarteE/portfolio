@@ -27,7 +27,6 @@ Each project reflects my commitment to using spatial data for actionable insight
 |--------|-------------|-------|----------------|
 | [`Targeting strategies for vulnerable migrant populations`](./migrant-cluster-analysis) | Identified intervention clusters based on settlement patterns of vulnerable migrant populations. Supported strategic planning and collaboration routes for socio-economic integration services. | ArcGIS Pro, Power BI, KoboToolbox | Strategic maps, dashboards, infographics, MEL visuals |
 | [`Violence againts LGBT population analysis`](./violence-lgbti-analysis) | Spatial analysis of violence against LGBTI persons in Colombia. Explored correlations with multidimensional poverty indicators and early warnings. | ArcGIS, R, Stata | Statistical and thematic maps |
-
 | [`Socio-environmental assessment of riverbed modifications`](./violence-lgbti-analysis) | Multitemporal evaluation of the influence of socioeconomic dynamics on water bodies. Supported legal and environmental research.| ArcGIS Pro, Office, GPS | Thematic maps, exploratory data analysis outputs |
 
 

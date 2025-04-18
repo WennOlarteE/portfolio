@@ -16,18 +16,16 @@ Each project reflects my commitment to using spatial data for actionable insight
 
 ## 🌱 Conservation & Land Use Projects
 
-| Project | Description | Tools | Visual Outputs |
-|--------|-------------|-------|----------------|
-| [`guardianas-paramo`](#) | Multitemporal land cover and land use analysis (2000–2024) in the Pisba páramo. Identified land use conflicts and priority areas for conservation and economic transformation. | ArcGIS Pro, QGIS, Adobe Illustrator | Technical report, thematic and cadastral maps for community participants |
-| [`ndvi-sar-modeling`](#) | Evaluation of vegetation changes using NDVI and SAR spatial regression models during the implementation of a conservation project (USAID - Destino Naturaleza). | Python (GeoPandas, rasterio, NumPy, matplotlib, seaborn) | Reproducible notebook, graphs of vegetation trends, spatial regression outputs |
+Project | Description | Tools | Visual Outputs
+Strategic mapping for páramo conservation | Multitemporal land cover and land use analysis (2000–2024) in the Pisba páramo. Identified land use conflicts and priority areas for conservation and economic transformation. | ArcGIS Pro, QGIS, Adobe Illustrator | Technical report, thematic and cadastral maps for community participants
+Ecological monitoring of regenerative tourism interventions | Developed a reproducible methodology using NDVI and SAR-based spatial regression models (SAR) to evaluate ecological impact over time—strengthening the monitoring and adaptive management of a regenerative tourism program. (USAID - Destino Naturaleza) | Python (GeoPandas, rasterio, NumPy, matplotlib, seaborn) | Reproducible notebook, graphs of vegetation trends, spatial regression outputs
 
 ## 🌍 Humanitarian & Social Research
 
-| Project | Description | Tools | Visual Outputs |
-|--------|-------------|-------|----------------|
-| [`migrant-cluster-analysis`](#) | Identified intervention clusters based on settlement patterns of vulnerable migrant populations. Supported strategic planning and collaboration routes for socio-economic integration services. | ArcGIS Pro, Stata, SAS, Power BI, KoboToolbox, ArcGIS Online | Strategic maps, dashboards, infographics, MEL visuals |
-| [`violence-lgbti-analysis`](#) | Spatial analysis of violence against LGBTI persons in Colombia. Explored correlations with multidimensional poverty indicators and early warnings. | ArcGIS Pro, R, Stata | Statistical and thematic maps, analytical report |
-| [`water-dynamics-socioeconomic`](#) | Multitemporal evaluation of the influence of socioeconomic dynamics on water bodies. Supported legal and environmental research. | ArcGIS Pro, Office, GPS | Thematic maps, exploratory data analysis outputs |
+Project | Description | Tools | Visual Outputs
+Targeting strategies for vulnerable migrant populations | Identified intervention clusters based on settlement patterns of vulnerable migrant populations. Supported strategic planning and collaboration routes for socio-economic integration services. | ArcGIS Pro, Stata, SAS, Power BI, KoboToolbox, ArcGIS Online | Strategic maps, dashboards, infographics, MEL visuals
+violence-lgbti-analysis | Spatial analysis of violence against LGBTI persons in Colombia. Explored correlations with multidimensional poverty indicators and early warnings. | ArcGIS Pro, R, Stata | Statistical and thematic maps, analytical report
+Socio-environmental assessment of riverbed modifications | Multitemporal evaluation of the influence of socioeconomic dynamics on water bodies. Supported legal and environmental research. | ArcGIS Pro, Office, GPS | Thematic maps, exploratory data analysis outputs
 
 
 

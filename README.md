@@ -13,6 +13,7 @@ Each project reflects my commitment to using spatial data for actionable insight
 
 - [🌱 Conservation & Land Use Projects](#conservation--land-use-projects)
 - [🌍 Humanitarian & Social Research](#humanitarian--social-research)
+
 ## 🌱 Conservation & Land Use Projects
 
 | Project | Description | Tools | Visual Outputs |
@@ -34,5 +35,5 @@ Each project reflects my commitment to using spatial data for actionable insight
 
 Feel free to explore each project and reach out if you'd like to collaborate or learn more.
 
-- 📍 [LinkedIn](https://www.linkedin.com/in/tu-usuario)
-- 📧 Email: [tuemail@ejemplo.com](mailto:tuemail@ejemplo.com)
+- 📍 [LinkedIn](https://www.linkedin.com/in/wendyolarte)
+- 📧 Email: [tuemail@ejemplo.com](mailto:wolarte2017@gmail.com)

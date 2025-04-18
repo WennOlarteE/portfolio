@@ -19,8 +19,9 @@ Each project reflects my commitment to using spatial data for actionable insight
 
 | Project | Description | Tools | Visual Outputs |
 |--------|-------------|-------|----------------|
-| [`Strategic land use mapping in páramo ecosystems`](./guardianas-paramo) | Multitemporal land cover and land use analysis (2000–2024) in the Pisba páramo. Identified land use conflicts and priority areas for conservation and economic transformation. | ArcGIS Pro, QGIS, Adobe Illustrator | Maps for policy and community use, technical report |
 | [`Monitoring ecological change in regenerative tourism sites`](./ndvi-sar-modeling) | Developed a reproducible methodology using NDVI and SAR-based spatial regression models (SAR) to evaluate ecological impact over time—strengthening the monitoring and adaptive management of a regenerative tourism program. (USAID - Destino Naturaleza) | Python (GeoPandas, rasterio, NumPy, matplotlib), Jupyter | Reproducible notebook, graphs of vegetation trends, spatial regression outputs |
+| [`Strategic land use mapping in páramo ecosystems`](./guardianas-paramo) | Multitemporal land cover and land use analysis (2000–2024) in the Pisba páramo. Identified land use conflicts and priority areas for conservation and economic transformation. | ArcGIS Pro, QGIS, Adobe Illustrator | Maps for policy and community use, technical report |
+
 
 ## 🌍 Humanitarian & Social Research
 

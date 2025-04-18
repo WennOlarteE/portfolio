@@ -1,12 +1,12 @@
-### 🌿 Monitoring Ecological Change in Regenerative Tourism Sites
+# 🌿 Monitoring Ecological Change in Regenerative Tourism Sites
 
 A story of pixels, plants, and purpose — built from satellite data and powered by the idea that tourism can help nature thrive.
 
-## 📅 Date
+### 📅 Date
 
 January 2025
 
-# 🏢 Organization
+### 🏢 Organization
 DAI, USAID's Destination Nature Activity
 
 🎯 Objectives

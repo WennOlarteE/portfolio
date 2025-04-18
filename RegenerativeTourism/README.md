@@ -15,7 +15,7 @@ DAI, USAID's Destination Nature Activity
 - Strengthen evidence-based decision-making for adaptive management of nature-based tourism projects.
 - Identify strategies to enhance ecosystem recovery in areas showing signs of vegetation stress.
 
-## 🛤️ Methodological Approach
+### 🛤️ Methodological Approach
 
 1. Context Review & Data Gathering
     - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.
@@ -50,7 +50,7 @@ DAI, USAID's Destination Nature Activity
            - Comparative boxplots
            - Spatial autocorrelation visuals
 
-## ⚙️ Tools & Technologies
+### ⚙️ Tools & Technologies
 Python (GeoPandas, rasterio, NumPy, matplotlib) · QGIS · Jupyter Notebook
 
 ### 📊 Outputs

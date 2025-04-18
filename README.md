@@ -13,44 +13,22 @@ Each project reflects my commitment to using spatial data for actionable insight
 
 - [🌱 Conservation & Land Use Projects](#conservation--land-use-projects)
 - [🌍 Humanitarian & Social Research](#humanitarian--social-research)
-- [🛠️ Tools & Automation](#tools--automation)
-- [🗺️ Maps & Visual Storytelling](#maps--visual-storytelling)
-
-
----
-
 ## 🌱 Conservation & Land Use Projects
 
-Projects that support land cover analysis, biodiversity conservation, and ecosystem management.
-
-- [`guardianas-paramo`](./guardianas-paramo): Multitemporal analysis of land use in the Pisba páramo (2000–2024) and mapping of conservation-priority zones.
-- [`ndvi-sar-modeling`](./ndvi-sar-modeling): Regression modeling of NDVI using SAR to evaluate vegetation changes in conservation interventions (USAID - Destino Naturaleza).
-
+| Project | Description | Tools | Visual Outputs |
+|--------|-------------|-------|----------------|
+| [`guardianas-paramo`](#) | Multitemporal land cover and land use analysis (2000–2024) in the Pisba páramo. Identified land use conflicts and priority areas for conservation and economic transformation. | ArcGIS Pro, QGIS, Adobe Illustrator | Technical report, thematic and cadastral maps for community participants |
+| [`ndvi-sar-modeling`](#) | Evaluation of vegetation changes using NDVI and SAR spatial regression models during the implementation of a conservation project (USAID - Destino Naturaleza). | Python (GeoPandas, rasterio, NumPy, matplotlib, seaborn) | Reproducible notebook, graphs of vegetation trends, spatial regression outputs |
 
 ## 🌍 Humanitarian & Social Research
 
-Geospatial support for social programs and equity-based initiatives.
-
-- [`migrant-cluster-analysis`](./migrant-cluster-analysis): Identification of settlement patterns and service access gaps for vulnerable migrant populations (USAID - VRI).
-- [`violence-lgbti-analysis`](./violence-lgbti-analysis): Spatial analysis of violence against LGBTI persons in Colombia and correlation with socio-economic indicators.
-
-
-## 🛠️ Tools & Automation
-
-Reproducible workflows, code automation and data cleaning pipelines.
-
-- [`geo-automation-python`](./geo-automation-python): Python scripts for raster processing and land cover classification.
-- [`data-cleaning-workflows`](./data-cleaning-workflows): Tools for transforming, georeferencing and visualizing complex datasets.
+| Project | Description | Tools | Visual Outputs |
+|--------|-------------|-------|----------------|
+| [`migrant-cluster-analysis`](#) | Identified intervention clusters based on settlement patterns of vulnerable migrant populations. Supported strategic planning and collaboration routes for socio-economic integration services. | ArcGIS Pro, Stata, SAS, Power BI, KoboToolbox, ArcGIS Online | Strategic maps, dashboards, infographics, MEL visuals |
+| [`violence-lgbti-analysis`](#) | Spatial analysis of violence against LGBTI persons in Colombia. Explored correlations with multidimensional poverty indicators and early warnings. | ArcGIS Pro, R, Stata | Statistical and thematic maps, analytical report |
+| [`water-dynamics-socioeconomic`](#) | Multitemporal evaluation of the influence of socioeconomic dynamics on water bodies. Supported legal and environmental research. | ArcGIS Pro, Office, GPS | Thematic maps, exploratory data analysis outputs |
 
 
-## 🗺️ Maps & Visual Storytelling
-
-Cartographic pieces and visual materials created for reports, community engagement and decision-making.
-
-- [`infographics-dashboard`](./infographics-dashboard): Web maps, dashboards and static graphics for institutional reports and strategic communication.
-- [`community-maps`](./community-maps): Map products designed for field teams and participants, ensuring accessibility and clarity of spatial information.
-
----
 
 ## 📫 Let’s connect
 

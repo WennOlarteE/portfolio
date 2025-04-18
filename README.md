@@ -9,7 +9,7 @@ Each project reflects my commitment to using spatial data for actionable insight
 > _"Always under construction — just like good code (and good ideas)."_
 
 
-## 🧭 Navigation
+## 🧭 Navigation (Table of Contents)
 
 - [🌱 Conservation & Land Use Projects](#conservation--land-use-projects)
 - [🌍 Humanitarian & Social Research](#humanitarian--social-research)

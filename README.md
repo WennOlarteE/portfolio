@@ -11,8 +11,9 @@ Each project reflects my commitment to using spatial data for actionable insight
 
 ## 🧭 Navigation (Table of Contents)
 
-- [🌱 Conservation & Land Use Projects](#conservation-&-land-use-projects)
-- [🌍 Humanitarian & Social Research](#humanitarian--social-research)
+- [🌱 Conservation & Land Use Projects](#conservation-and-land-use-projects)
+- [🌍 Humanitarian & Social Research](#humanitarian-and-social-research)
+
 
 ## 🌱 Conservation & Land Use Projects
 

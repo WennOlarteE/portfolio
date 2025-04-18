@@ -1,3 +1,85 @@
-{"updates": [{"op": "add", "path": "/Monitoring%20ecological%20change%20in%20regenerative%20tourism%20sites%20README", "value": "## 🌿 Monitoring Ecological Change in Regenerative Tourism Sites\n\nA story of pixels, plants, and purpose — built from satellite data and powered by the idea that tourism can help nature thrive.\n\n---\n\n### 📅 Date \nJanuary 2025\n\n### 🏢 Organization \nDAI, USAID's Destination Nature Activity\n\n### 🎯 Objectives \n- Quantify the number of hectares showing ecological improvement as a result of regenerative tourism activities.\n- Strengthen evidence-based decision-making for adaptive management of nature-based tourism projects.\n- Identify strategies to enhance ecosystem recovery in areas showing signs of vegetation stress.\n\n---\n\n### 🛤️ Methodological Approach\n\n#### 1. Context Review & Data Gathering\n- Defined relevant timeframes for the baseline, intervention period, and program completion.\n- Downloaded monthly PlanetScope imagery and normalized scenes for each target corridor.\n- Created seamless image mosaics by stitching together adjacent satellite tiles with high spatial overlap.\n\n#### 2. Delimitation of Study Areas\n- Clipped mosaics using corridor-specific shapefiles.\n- Masked out urban and aquatic areas to focus exclusively on vegetated land.\n\n#### 3. NDVI Calculation\n- Calculated the Normalized Difference Vegetation Index (NDVI) for each monthly mosaic:\n - High values = healthy/dense vegetation \n - Low values = bare soil or water\n\n#### 4. Exploratory Statistical Analysis\n- Extracted key NDVI metrics per pixel and at corridor scale:\n - Max/Min (vegetation extremes) \n - Mean/Median (central tendency) \n - 90th Percentile (best conditions)\n- Created visualizations:\n - Thematic NDVI maps (monthly)\n - Histograms to understand value distributions\n - Time series of key statistics per corridor\n\n#### 5. Annual Processing & Spatial Modeling\n- Temporal integration:\n - Averaged NDVI across months to obtain annual composites\n - Standardized spatial resolution for year-to-year comparison\n- Spatial regression:\n - Applied SAR models to quantify annual ecological change\n - Detected spatial patterns and clusters of improvement or decline\n- Visual outputs:\n - Annual difference heatmaps\n - Boxplots comparing key statistics across years\n - Spatial autocorrelation plots\n\n---\n\n### ⚙️ Tools & Technologies\nPython (GeoPandas, rasterio, NumPy, matplotlib) · QGIS · Jupyter Notebook\n\n---\n\n### 📊 Outputs\n- Reproducible code and documented methodology in a Jupyter Notebook.\n- Visualizations of vegetation health trends per site.\n- Spatial regression maps to support program monitoring and decision-making.\n\n---\n\n### 🔍 Key Takeaways\n- Combining NDVI with spatial regression created a nuanced, credible picture of ecological dynamics.\n- Spatial modeling revealed not only if change happened, but where — critical for adaptive planning.\n- The workflow is scalable and adaptable to other nature-based interventions.\n\n---\n\nWant to take a look at the code or visuals? Click here to explore the notebook."}]}
+## 🌿 Monitoring Ecological Change in Regenerative Tourism Sites
+A story of pixels, plants, and purpose — built from satellite data and powered by the idea that tourism can help nature thrive.
 
+📅 Date
+January 2025
+
+🏢 Organization
+DAI, USAID's Destination Nature Activity
+
+🎯 Objectives
+Quantify the number of hectares showing ecological improvement as a result of regenerative tourism activities.
+
+Strengthen evidence-based decision-making for adaptive management of nature-based tourism projects.
+
+Identify strategies to enhance ecosystem recovery in areas showing signs of vegetation stress.
+
+🛤️ Methodological Approach
+1. Context Review & Data Gathering
+Defined relevant timeframes for baseline, intervention, and post-intervention analysis.
+
+Collected and normalized monthly PlanetScope imagery for each tourism corridor.
+
+Mosaicked tiles to create seamless image coverage with precise spatial alignment.
+
+2. Study Area Delimitation
+Used vector shapefiles to clip mosaics to the extent of each corridor.
+
+Masked out urban zones and water bodies to focus on vegetated areas.
+
+3. NDVI Calculation
+Computed monthly NDVI to assess vegetation health:
+
+High NDVI → Dense, healthy vegetation
+
+Low NDVI → Bare soil or water
+
+4. Exploratory Statistics & Visualization
+Extracted metrics per pixel and corridor level:
+
+Max, Min, Mean, Median, and 90th Percentile
+
+Created:
+
+Thematic NDVI maps
+
+Histograms to explore data distribution
+
+Monthly time series graphs
+
+5. Annual Processing & Spatial Modeling
+Generated yearly NDVI composites and standardized resolutions.
+
+Applied Spatial Autoregressive (SAR) Models to:
+
+Quantify change over time
+
+Detect spatial trends and hotspots
+
+Identify significant improvement or degradation clusters
+
+Produced:
+
+Annual NDVI change maps
+
+Comparative boxplots
+
+Spatial autocorrelation visuals
+
+⚙️ Tools & Technologies
+Python (GeoPandas, rasterio, NumPy, matplotlib) · QGIS · Jupyter Notebook
+
+📊 Outputs
+Reproducible code and methodology in Jupyter Notebook
+
+Vegetation trend graphs per corridor
+
+Spatial regression maps supporting decision-making
+
+🔍 Key Takeaways
+Integrating NDVI with SAR modeling provided a rich and credible view of ecological dynamics.
+
+Spatial insights helped ground adaptive management in real, localized evidence.
+
+The entire workflow is scalable and adaptable to other contexts involving nature-based interventions.
 

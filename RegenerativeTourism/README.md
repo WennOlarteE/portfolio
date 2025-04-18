@@ -1,4 +1,4 @@
-## Ecological monitoring of regenerative tourism interventions
+## Monitoring ecological change in regenerative tourism sites
 
 📅 Date
 2025

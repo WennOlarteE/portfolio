@@ -12,7 +12,8 @@ Each project reflects my commitment to using spatial data for actionable insight
 ## 🧭 Navigation (Table of Contents)
 
 - [🌱 Conservation & Land Use Projects](#conservation-and-land-use-projects)
-- [🌍 Humanitarian & Social Research]([#humanitarian-and-social-research](https://github.com/WennOlarteE/portfolio/blob/main/README.md#-humanitarian--social-research:~:text=spatial%20regression%20outputs-,%F0%9F%8C%8D%20Humanitarian%20%26%20Social%20Research,-Project))
+- [🌍 Humanitarian & Social Research](https://github.com/WennOlarteE/portfolio/blob/main/README.md#-humanitarian--social-research:~:text=spatial%20regression%20outputs-,%F0%9F%8C%8D%20Humanitarian%20%26%20Social%20Research,-Project)
+
 
 ## 🌱 Conservation & Land Use Projects
 

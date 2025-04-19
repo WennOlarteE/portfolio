@@ -22,8 +22,8 @@ DAI, USAID's Destination Nature Activity
 <details>
 <summary>1. Context Review & Data Gathering</summary>
 <br>
-   - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.\
-   - Collected and normalized monthly PlanetScope imagery for each tourism corridor.\
+   - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.<br>
+   - Collected and normalized monthly PlanetScope imagery for each tourism corridor.<br>
    - Mosaicked tiles to create seamless image coverage with precise spatial alignment.
 
 </details>

@@ -68,3 +68,20 @@ Python (GeoPandas, rasterio, NumPy, matplotlib) · QGIS · Jupyter Notebook
 
 ![R](https://img.shields.io/badge/R-4.3.1-blue)
 ![Terra](https://img.shields.io/badge/terra-1.7-71B4D1)
+
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>

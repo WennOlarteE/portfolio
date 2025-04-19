@@ -20,57 +20,82 @@ DAI, USAID's Destination Nature Activity
 ### 🛤️ Methodological Approach
 <br>
 <ol>
+   
 <details>
 <summary>1. Context Review & Data Gathering</summary>
 <br>
 <ol>
    - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.<br>
    - Collected and normalized monthly PlanetScope imagery for each tourism corridor.<br>
-   - Mosaicked tiles to create seamless image coverage with precise spatial alignment.
 </ol>
 </details>
-</ol>
 
+   
+<details>
+<summary>2. Mosaic generation</summary>
+<br>
+<ol>
+   - Union of the unit downloaded images to create seamless image coverage with precise spatial alignment.  
+</ol>
+</details>
+
+
+<details>
+<summary>3. Study Area Delimitation</summary>
+<br>
+<ol>
+   - Used vector shapefiles to clip mosaics to the extent of each corridor.<br>
+   - Masked out urban zones and water bodies to focus on vegetated areas.  
+</ol>
+</details>
+
+
+<details>
+<summary>4. NDVI Calculation</summary>
+<br>
+<ol>
+- Computed monthly NDVI to assess vegetation health:
+   - High NDVI → Dense, healthy vegetation
+   - Low NDVI → Bare soil or water
+</ol>
+</details>
+
+
+<details>
+<summary>5. Exploratory Statistics & Visualization</summary>
+<br>
+<ol>
+- Extracted metrics per pixel and corridor level:
+   - Max, Min, Mean, Median, and 90th Percentile
+- Created:
+   - Thematic NDVI maps
+   - Histograms to explore data distribution
+   - Monthly time series graphs
+</ol>
+</details>
 
 
 
 <details>
-
-<summary>2. Study Area Delimitation</summary>
+<summary>6. Annual Processing & Spatial Modeling</summary>
 <br>
-   - Used vector shapefiles to clip mosaics to the extent of each corridor.  
-   - Masked out urban zones and water bodies to focus on vegetated areas.
-
+<ol>
+- Generated yearly NDVI composites and standardized resolutions.
+   - Applied Spatial Autoregressive (SAR) Models to:
+      - Quantify change over time
+      - Detect spatial trends and hotspots
+      - Identify significant improvement or degradation clusters
+   - Produced:
+      - Annual NDVI change maps
+      - Comparative boxplots
+      - Spatial autocorrelation visuals
+</ol>
 </details>
+     
+</ol>
 
 
-2. Study Area Delimitation
-    - Used vector shapefiles to clip mosaics to the extent of each corridor.
-    - Masked out urban zones and water bodies to focus on vegetated areas.
 
-3. NDVI Calculation
-     - Computed monthly NDVI to assess vegetation health:
-           - High NDVI → Dense, healthy vegetation
-           - Low NDVI → Bare soil or water
-
-4. Exploratory Statistics & Visualization
-     - Extracted metrics per pixel and corridor level:
-         - Max, Min, Mean, Median, and 90th Percentile
-     - Created:
-         - Thematic NDVI maps
-         - Histograms to explore data distribution
-         - Monthly time series graphs
-
-5. Annual Processing & Spatial Modeling
-     - Generated yearly NDVI composites and standardized resolutions.
-     - Applied Spatial Autoregressive (SAR) Models to:
-          - Quantify change over time
-          - Detect spatial trends and hotspots
-          - Identify significant improvement or degradation clusters
-     - Produced:
-           - Annual NDVI change maps
-           - Comparative boxplots
-           - Spatial autocorrelation visuals
 
 ### ⚙️ Tools & Technologies
 Python (GeoPandas, rasterio, NumPy, matplotlib) · QGIS · Jupyter Notebook

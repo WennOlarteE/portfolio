@@ -19,10 +19,23 @@ DAI, USAID's Destination Nature Activity
 
 ### 🛤️ Methodological Approach
 
-1. Context Review & Data Gathering
-    - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.
-    - Collected and normalized monthly PlanetScope imagery for each tourism corridor.
-    - Mosaicked tiles to create seamless image coverage with precise spatial alignment.
+<details>
+<summary>1. Context Review & Data Gathering</summary>
+
+- Defined relevant timeframes for baseline, intervention, and post-intervention analysis.
+- Collected and normalized monthly PlanetScope imagery for each tourism corridor.
+- Mosaicked tiles to create seamless image coverage with precise spatial alignment.
+
+</details>
+
+<details>
+<summary>2. Study Area Delimitation</summary>
+
+- Used vector shapefiles to clip mosaics to the extent of each corridor.
+- Masked out urban zones and water bodies to focus on vegetated areas.
+
+</details>
+
 
 2. Study Area Delimitation
     - Used vector shapefiles to clip mosaics to the extent of each corridor.

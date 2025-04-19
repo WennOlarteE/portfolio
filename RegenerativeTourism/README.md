@@ -110,7 +110,12 @@ DAI, USAID's Destination Nature Activity
 
 
 ### ⚙️ Tools & Technologies
-Python (GeoPandas, rasterio, NumPy, matplotlib) · QGIS · Jupyter Notebook
+
+- Languages: Python (GeoPandas, rasterio, NumPy, matplotlib)
+- Geospatial Tools: ArcGIS Pro, QGIS, Google Earth Engine
+- Visualization: matplotlib, seaborn
+- Version Control: Git & GitHub
+- Jupyter Notebook
 
 ### 📊 Outputs
 
@@ -125,22 +130,3 @@ Python (GeoPandas, rasterio, NumPy, matplotlib) · QGIS · Jupyter Notebook
 - The entire workflow is scalable and adaptable to other contexts involving nature-based interventions.
 
 
-![R](https://img.shields.io/badge/R-4.3.1-blue)
-![Terra](https://img.shields.io/badge/terra-1.7-71B4D1)
-
-
-<details>
-
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-You can add text within a collapsed section.
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
-
-</details>

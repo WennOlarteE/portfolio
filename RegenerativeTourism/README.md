@@ -23,7 +23,6 @@ DAI, USAID's Destination Nature Activity
    
 <details>
 <summary>1. Context Review & Data Gathering</summary>
-<br>
 <ol>
    - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.<br>
    - Collected and normalized monthly PlanetScope imagery for each tourism corridor.<br>
@@ -68,11 +67,15 @@ DAI, USAID's Destination Nature Activity
 <br>
 <ol>
 - Extracted metrics per pixel and corridor level:<br>
+<ol>
    - Max, Min, Mean, Median, and 90th Percentile<br>
+</ol>
 - Created:<br>
+<ol>
    - Thematic NDVI maps<br>
    - Histograms to explore data distribution<br>
    - Monthly time series graphs<br>
+</ol>
 </ol>
 </details>
 
@@ -83,14 +86,20 @@ DAI, USAID's Destination Nature Activity
 <br>
 <ol>
 - Generated yearly NDVI composites and standardized resolutions.<br>
+<ol>
    - Applied Spatial Autoregressive (SAR) Models to:<br>
+   <ol>
       - Quantify change over time<br>
       - Detect spatial trends and hotspots<br>
       - Identify significant improvement or degradation clusters<br>
+   </ol>
    - Produced:<br>
+   <ol>
       - Annual NDVI change maps<br>
       - Comparative boxplots<br>
       - Spatial autocorrelation visuals<br>
+   </ol>
+</ol>
 </ol>
 </details>
      

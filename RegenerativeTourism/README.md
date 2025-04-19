@@ -13,26 +13,27 @@ DAI, USAID's Destination Nature Activity
 
 ### 🎯 Objectives
 
-- 🔢 Quantify the number of hectares showing ecological improvement as a result of regenerative tourism activities.
-- 🔦 Strengthen evidence-based decision-making for adaptive management of nature-based tourism projects.
-- 🚀 Identify strategies to enhance ecosystem recovery in areas showing signs of vegetation stress.
+   🔢 Quantify the number of hectares showing ecological improvement as a result of regenerative tourism activities.
+   🔦 Strengthen evidence-based decision-making for adaptive management of nature-based tourism projects.
+   🚀 Identify strategies to enhance ecosystem recovery in areas showing signs of vegetation stress.
 
 ### 🛤️ Methodological Approach
 
 <details>
 <summary>1. Context Review & Data Gathering</summary>
-
-- Defined relevant timeframes for baseline, intervention, and post-intervention analysis.
-- Collected and normalized monthly PlanetScope imagery for each tourism corridor.
-- Mosaicked tiles to create seamless image coverage with precise spatial alignment.
+<br>
+   - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.
+   - Collected and normalized monthly PlanetScope imagery for each tourism corridor.
+   - Mosaicked tiles to create seamless image coverage with precise spatial alignment.
 
 </details>
 
 <details>
-<summary>2. Study Area Delimitation</summary>
 
-- Used vector shapefiles to clip mosaics to the extent of each corridor.
-- Masked out urban zones and water bodies to focus on vegetated areas.
+<summary>2. Study Area Delimitation</summary>
+<br>
+   - Used vector shapefiles to clip mosaics to the extent of each corridor.
+   - Masked out urban zones and water bodies to focus on vegetated areas.
 
 </details>
 

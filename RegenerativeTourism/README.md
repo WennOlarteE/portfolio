@@ -17,6 +17,18 @@ DAI, USAID's Destination Nature Activity
    🔦 Strengthen evidence-based decision-making for adaptive management of nature-based tourism projects.  
    🚀 Identify strategies to enhance ecosystem recovery in areas showing signs of vegetation stress.
 
+<ol>
+<li>
+<p>A paragraph
+with two lines.</p>
+<pre><code>indented code
+</code></pre>
+<blockquote>
+<p>A block quote.</p>
+</blockquote>
+</li>
+</ol>
+
 ### 🛤️ Methodological Approach
 
 <details>
@@ -25,6 +37,18 @@ DAI, USAID's Destination Nature Activity
    - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.<br>
    - Collected and normalized monthly PlanetScope imagery for each tourism corridor.<br>
    - Mosaicked tiles to create seamless image coverage with precise spatial alignment.
+
+<ol>
+<li>
+<p>A paragraph
+with two lines.</p>
+<pre><code>indented code
+</code></pre>
+<blockquote>
+<p>A block quote.</p>
+</blockquote>
+</li>
+</ol>
 
 </details>
 

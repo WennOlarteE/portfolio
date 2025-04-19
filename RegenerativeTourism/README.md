@@ -23,6 +23,7 @@ DAI, USAID's Destination Nature Activity
    
 <details>
 <summary>1. Context Review & Data Gathering</summary>
+<br>
 <ol>
    - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.<br>
    - Collected and normalized monthly PlanetScope imagery for each tourism corridor.<br>
@@ -32,6 +33,7 @@ DAI, USAID's Destination Nature Activity
    
 <details>
 <summary>2. Mosaic generation</summary>
+<br>
 <ol>
    - Union of the unit downloaded images to create seamless image coverage with precise spatial alignment.  
 </ol>
@@ -40,6 +42,7 @@ DAI, USAID's Destination Nature Activity
 
 <details>
 <summary>3. Study Area Delimitation</summary>
+<br>
 <ol>
    - Used vector shapefiles to clip mosaics to the extent of each corridor.<br>
    - Masked out urban zones and water bodies to focus on vegetated areas.  
@@ -49,6 +52,7 @@ DAI, USAID's Destination Nature Activity
 
 <details>
 <summary>4. NDVI Calculation</summary>
+<br>
 <ol>
 - Computed monthly NDVI to assess vegetation health:<br>
 <ol>
@@ -61,6 +65,7 @@ DAI, USAID's Destination Nature Activity
 
 <details>
 <summary>5. Exploratory Statistics & Visualization</summary>
+<br>
 <ol>
 - Extracted metrics per pixel and corridor level:<br>
 <ol>
@@ -79,6 +84,7 @@ DAI, USAID's Destination Nature Activity
 
 <details>
 <summary>6. Annual Processing & Spatial Modeling</summary>
+<br>
 <ol>
 - Generated yearly NDVI composites and standardized resolutions.<br>
 <ol>

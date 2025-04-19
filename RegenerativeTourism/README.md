@@ -55,8 +55,10 @@ DAI, USAID's Destination Nature Activity
 <br>
 <ol>
 - Computed monthly NDVI to assess vegetation health:<br>
+<ol>
    - High NDVI → Dense, healthy vegetation<br>
    - Low NDVI → Bare soil or water
+</ol>
 </ol>
 </details>
 

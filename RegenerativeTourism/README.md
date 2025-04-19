@@ -14,9 +14,7 @@ DAI, USAID's Destination Nature Activity
 ### 🎯 Objectives
 
 <ol>
-<li>
 <p>🔢 Quantify the number of hectares showing ecological improvement as a result of regenerative tourism activities.<br>🔦 Strengthen evidence-based decision-making for adaptive management of nature-based tourism projects.<br>🚀 Identify strategies to enhance ecosystem recovery in areas showing signs of vegetation stress.</p>
-</li>
 </ol>
 
 ### 🛤️ Methodological Approach

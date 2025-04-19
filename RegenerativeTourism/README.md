@@ -54,8 +54,8 @@ DAI, USAID's Destination Nature Activity
 <summary>4. NDVI Calculation</summary>
 <br>
 <ol>
-- Computed monthly NDVI to assess vegetation health:
-   - High NDVI → Dense, healthy vegetation
+- Computed monthly NDVI to assess vegetation health:<br>
+   - High NDVI → Dense, healthy vegetation<br>
    - Low NDVI → Bare soil or water
 </ol>
 </details>
@@ -65,12 +65,12 @@ DAI, USAID's Destination Nature Activity
 <summary>5. Exploratory Statistics & Visualization</summary>
 <br>
 <ol>
-- Extracted metrics per pixel and corridor level:
-   - Max, Min, Mean, Median, and 90th Percentile
-- Created:
-   - Thematic NDVI maps
-   - Histograms to explore data distribution
-   - Monthly time series graphs
+- Extracted metrics per pixel and corridor level:<br>
+   - Max, Min, Mean, Median, and 90th Percentile<br>
+- Created:<br>
+   - Thematic NDVI maps<br>
+   - Histograms to explore data distribution<br>
+   - Monthly time series graphs<br>
 </ol>
 </details>
 
@@ -80,15 +80,15 @@ DAI, USAID's Destination Nature Activity
 <summary>6. Annual Processing & Spatial Modeling</summary>
 <br>
 <ol>
-- Generated yearly NDVI composites and standardized resolutions.
-   - Applied Spatial Autoregressive (SAR) Models to:
-      - Quantify change over time
-      - Detect spatial trends and hotspots
-      - Identify significant improvement or degradation clusters
-   - Produced:
-      - Annual NDVI change maps
-      - Comparative boxplots
-      - Spatial autocorrelation visuals
+- Generated yearly NDVI composites and standardized resolutions.<br>
+   - Applied Spatial Autoregressive (SAR) Models to:<br>
+      - Quantify change over time<br>
+      - Detect spatial trends and hotspots<br>
+      - Identify significant improvement or degradation clusters<br>
+   - Produced:<br>
+      - Annual NDVI change maps<br>
+      - Comparative boxplots<br>
+      - Spatial autocorrelation visuals<br>
 </ol>
 </details>
      

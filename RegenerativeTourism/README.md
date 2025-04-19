@@ -21,11 +21,6 @@ DAI, USAID's Destination Nature Activity
 <li>
 <p>A paragraph
 with two lines.</p>
-<pre><code>indented code
-</code></pre>
-<blockquote>
-<p>A block quote.</p>
-</blockquote>
 </li>
 </ol>
 

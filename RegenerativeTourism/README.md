@@ -116,27 +116,27 @@ DAI, USAID's Destination Nature Activity
 ### ⚙️ Tools & Technologies
 
 <ol>
-- Languages: Python (GeoPandas, rasterio, NumPy, matplotlib)
-- Geospatial Tools: ArcGIS Pro, QGIS, Google Earth Engine
-- Visualization: matplotlib, seaborn
-- Version Control: Git & GitHub
-- Jupyter Notebook
+- Languages: Python (GeoPandas, rasterio, NumPy, matplotlib) <br>
+- Geospatial Tools: ArcGIS Pro, QGIS, Google Earth Engine <br>
+- Visualization: matplotlib, seaborn <br>
+- Version Control: Git & GitHub <br>
+- Jupyter Notebook <br>
 </ol>
 
 
 ### 📊 Outputs
 
 <ol>
-- Reproducible code and methodology in Jupyter Notebook
-- Vegetation trend graphs per corridor
-- Spatial regression maps supporting decision-making
+- Reproducible code and methodology in Jupyter Notebook <br>
+- Vegetation trend graphs per corridor <br>
+- Spatial regression maps supporting decision-making <br>
 </ol>
 
 ### 🔍 Key Takeaways
 
 <ol>
-- Integrating NDVI with SAR modeling provided a rich and credible view of ecological dynamics.
-- Spatial insights helped ground adaptive management in real, localized evidence.
-- The entire workflow is scalable and adaptable to other contexts involving nature-based interventions.
+- Integrating NDVI with SAR modeling provided a rich and credible view of ecological dynamics. <br>
+- Spatial insights helped ground adaptive management in real, localized evidence. <br>
+- The entire workflow is scalable and adaptable to other contexts involving nature-based interventions. <br>
 </ol>
 

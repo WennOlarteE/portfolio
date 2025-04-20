@@ -1,15 +1,19 @@
 # 🌿 Monitoring Ecological Change in Regenerative Tourism Sites
 
 <br>
+
 A story of pixels, plants, and purpose — built from satellite data and powered by the idea that tourism can help nature thrive.
 <br>
 
 ### 📅 Date
-
+<ol>
 January 2025
-
+</ol>
+   
 ### 🏢 Organization
+<ol>
 DAI, USAID's Destination Nature Activity
+</ol>
 
 ### 🎯 Objectives
 
@@ -111,22 +115,28 @@ DAI, USAID's Destination Nature Activity
 
 ### ⚙️ Tools & Technologies
 
+<ol>
 - Languages: Python (GeoPandas, rasterio, NumPy, matplotlib)
 - Geospatial Tools: ArcGIS Pro, QGIS, Google Earth Engine
 - Visualization: matplotlib, seaborn
 - Version Control: Git & GitHub
 - Jupyter Notebook
+</ol>
+
 
 ### 📊 Outputs
 
+<ol>
 - Reproducible code and methodology in Jupyter Notebook
 - Vegetation trend graphs per corridor
 - Spatial regression maps supporting decision-making
+</ol>
 
 ### 🔍 Key Takeaways
 
+<ol>
 - Integrating NDVI with SAR modeling provided a rich and credible view of ecological dynamics.
 - Spatial insights helped ground adaptive management in real, localized evidence.
 - The entire workflow is scalable and adaptable to other contexts involving nature-based interventions.
-
+</ol>
 

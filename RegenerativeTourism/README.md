@@ -159,3 +159,25 @@ graph LR
     D --> E[Estadísticas]
     D --> F[Visualización]
 ```
+
+```mermaid
+flowchart LR
+    subgraph A[📥 Input]
+        A1["Monthly normalized PlanetScope tiles (.tif)"]
+    end
+
+    subgraph B[⚙️ Processing]
+        B1["List .tif files"]
+        B2["Open with rasterio"]
+        B3["Merge using merge()"]
+        B4["Update metadata"]
+        B5["Save temp_mosaic.tif"]
+    end
+
+    subgraph C[📤 Output]
+        C1["Temporary GeoTIFF mosaic"]
+        C2["Ensures spatial continuity"]
+    end
+
+    A1 --> B1 --> B2 --> B3 --> B4 --> B5 --> C1 --> C2
+```

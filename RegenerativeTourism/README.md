@@ -113,7 +113,7 @@ flowchart LR
 
     A1 --> B1 --> C1 --> D1
 ```
-📷 Below is a preview of the resulting raster after clipping the mosaic with the corridor shapefile:<br><br>
+📷 Below is a preview of one output tile resulting from the clipping process. This image is provided as an example; the full analysis included multiple mosaics across various corridors.<br><br>
 ![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/2_ClippedMosaic.png)<br>
 
 💻 Code

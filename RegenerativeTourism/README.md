@@ -41,7 +41,7 @@ DAI, USAID's Destination Nature Activity
 <ol>
 To prepare the satellite imagery for analysis, the individual PlanetScope tiles downloaded for each tourism corridor were first merged into a single raster mosaic. This preprocessing step ensures all tiles are spatially aligned and simplifies subsequent workflows by reducing the number of input files.
 <br><br>
-This step has two main objectives:
+This step has two main objectives:<br>
 <ol>
    • 🧩 Integration: unify fragmented tiles into a seamless mosaic for the full corridor extent.<br>
    • 🛠️ Preprocessing: generate a base raster for further spatial analysis and clipping.

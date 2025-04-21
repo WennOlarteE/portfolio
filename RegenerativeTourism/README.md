@@ -39,36 +39,51 @@ DAI, USAID's Destination Nature Activity
 <summary>2. Mosaic generation</summary>
 <br>
 <ol>
-   - Union of the unit downloaded images to create seamless image coverage with precise spatial alignment. <br>
+To prepare the satellite imagery for analysis, the individual PlanetScope tiles downloaded for each tourism corridor were first merged into a single raster mosaic.
+
+This preprocessing step ensures all tiles are spatially aligned and simplifies subsequent workflows by reducing the number of input files.
+
+This step has two main objectives:
+<ol>
+   • 🧩 Integration: unify fragmented tiles into a seamless mosaic for the full corridor extent.
+   • 🛠️ Preprocessing: generate a base raster for further spatial analysis and clipping.
+</ol>
+
+📝 Note:  
+The merge process defaults to pixel-wise averaging in areas where tiles overlap. This helps minimize radiometric discrepancies and smooths transitions between adjacent scenes, especially in zones with partial cloud cover.
+
+<br>
 
 <br>
 <br>
 
 ```mermaid
-
 flowchart LR
     subgraph A[📥 Input]
-        A1["Monthly normalized PlanetScope tiles (.tif)"]
+        A1["• Folder with individual PlanetScope tiles (GeoTIFFs)"]
     end
 
     subgraph B[⚙️ Processing]
-        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif<br>"]
+        B1["• Uses rasterio to open all .tif files<br>• Merges them with rasterio.merge (defaults to average on overlap)<br>• Updates metadata (dimensions, transform, band count)<br>• Saves result as a temporary GeoTIFF mosaic"]
     end
 
-    subgraph C[📤 Output]
-        C1["Temporary GeoTIFF mosaic<br>with spatial continuity"]
+    subgraph C[📤 Analysis]
+        C1["• Creates a single raster aligned with corridor extent<br>• Reduces input complexity for future operations"]
     end
 
-    A1 --> B1 --> C1
+    subgraph D[📤 Output]
+        D1["Temporary mosaic (GeoTIFF) covering the full area of interest"]
+    end
+
+    A1 --> B1 --> C1 --> D1
 ```
+📷 Below is an example of the resulting mosaic raster for one of the regenerative tourism corridors:<br><br><br>
+![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/2_ClippedMosaic.png)<br>
 
-
-
-[🔗 View the mosaic generation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md).
-
+💻 Want to explore the code behind this step? Check out the Jupyter Notebook:
+[🔗 View the mosaic generation code](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md).
 
 </ol>
-
 
 </details>
 

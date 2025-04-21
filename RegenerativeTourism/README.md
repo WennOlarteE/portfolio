@@ -40,7 +40,7 @@ DAI, USAID's Destination Nature Activity
 <br>
 <ol>
    - Union of the unit downloaded images to create seamless image coverage with precise spatial alignment.
-   ![Diagrana](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Diagrama%20sin%20t%C3%ADtulo.drawio)
+   ![Diagrana](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGen.drawio.png)
 </ol>
 </details>
 

@@ -46,6 +46,15 @@ DAI, USAID's Destination Nature Activity
 
 ![Alt text here](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGen.drawio.png)
 
+``mermaid
+graph LR
+    A[Tiles PlanetScope] --> B[Mosaico]
+    B --> C[Recorte]
+    C --> D[NDVI]
+    D --> E[Estadísticas]
+    D --> F[Visualización]
+```
+
 </ol>
 
 

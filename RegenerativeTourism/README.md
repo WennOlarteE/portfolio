@@ -151,7 +151,7 @@ DAI, USAID's Destination Nature Activity
 - The entire workflow is scalable and adaptable to other contexts involving nature-based interventions. <br>
 </ol>
 
-``mermaid
+```mermaid
 graph LR
     A[Tiles PlanetScope] --> B[Mosaico]
     B --> C[Recorte]

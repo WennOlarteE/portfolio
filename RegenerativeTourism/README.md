@@ -87,7 +87,11 @@ This step serves two main purposes:
 
 •⚡ Performance optimization: reducing processing load for large-scale modeling.
 
-📷 Below is a preview of the resulting raster after clipping the mosaic with the corridor shapefile:
+📝 Note:
+Setting a NoData value (-9999) ensures that masked-out areas are excluded from subsequent analyses. This avoids distortions in calculations such as NDVI, where undefined pixels could otherwise bias results or trigger processing errors.
+
+🔄 Process Diagram
+
 ```mermaid
 
 flowchart LR
@@ -109,6 +113,8 @@ flowchart LR
 
     A1 --> B1 --> C1 --> D1
 ```
+📷 Below is a preview of the resulting raster after clipping the mosaic with the corridor shapefile:
+
 [🔗 View the study area delimitation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md).
    
 </ol>

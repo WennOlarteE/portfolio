@@ -83,9 +83,9 @@ To ensure that all subsequent analyses focus solely on the relevant geographic e
 
 This step serves two main purposes:
 
-• 🎯 Spatial focus: removing irrelevant surroundings and keeping only the core study area.
+   • 🎯 Spatial focus: removing irrelevant surroundings and keeping only the core study area.
 
-•⚡ Performance optimization: reducing processing load for large-scale modeling.
+   •⚡ Performance optimization: reducing processing load for large-scale modeling.
 
 📝 Note:
 Setting a NoData value (-9999) ensures that masked-out areas are excluded from subsequent analyses. This avoids distortions in calculations such as NDVI, where undefined pixels could otherwise bias results or trigger processing errors.

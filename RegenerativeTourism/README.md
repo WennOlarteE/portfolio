@@ -64,7 +64,7 @@ flowchart LR
 
 
 
-[🔗 View the mosaic generation code in the Jupyter Notebook](RegenerativeTourism/MosaicGeneration.md).
+[🔗 View the mosaic generation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md).
 
 
 </ol>

@@ -73,7 +73,7 @@ flowchart LR
     A1 --> B1 --> C1 --> D1
 ```
 📷 Below is an example of the resulting mosaic raster for one of the regenerative tourism corridors:<br><br>
-![alt text](https://github.com/WennOlarteE/portfolio/blob/main/Mosaico.png)<br>
+![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Mosaico.png)<br>
 
 💻 Want to explore the code behind this step? Check out the Jupyter Notebook:
 [🔗 View the mosaic generation code](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md).

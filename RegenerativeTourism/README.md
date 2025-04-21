@@ -52,7 +52,7 @@ flowchart LR
     end
 
     subgraph B[⚙️ Processing]
-        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif<br><br>[View Code](RegenerativeTourism/MosaicGeneration.md)"]
+        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif<br>"]
     end
 
     subgraph C[📤 Output]
@@ -64,6 +64,7 @@ flowchart LR
 
 
 
+[🔗 View the mosaic generation code in the Jupyter Notebook](RegenerativeTourism/MosaicGeneration.md).
 
 
 </ol>

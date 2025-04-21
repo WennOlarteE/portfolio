@@ -82,11 +82,11 @@ flowchart LR
 To ensure that all subsequent analyses focus solely on the relevant geographic extent, the temporary mosaic created in the previous step was clipped using the shapefile corresponding to the regenerative tourism corridor.
 
 This step serves two main purposes:
-
+<ol>
    • 🎯 Spatial focus: removing irrelevant surroundings and keeping only the core study area.
 
    •⚡ Performance optimization: reducing processing load for large-scale modeling.
-
+</ol>
 📝 Note:
 Setting a NoData value (-9999) ensures that masked-out areas are excluded from subsequent analyses. This avoids distortions in calculations such as NDVI, where undefined pixels could otherwise bias results or trigger processing errors.
 

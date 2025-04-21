@@ -34,23 +34,22 @@ Before diving into the analytical workflow, the project began with a context rev
 
 This step laid the groundwork for spatial and temporal consistency throughout the monitoring process. Three distinct timeframes were defined to guide the analysis:
 <ol>
-  • ⏳ Baseline: captures pre-intervention conditions  
-  • 🔨 Intervention: during implementation of regenerative tourism strategies  
-  • 🌱 Post-intervention: to assess outcomes over time
+  • ⏳ Baseline: captures pre-intervention conditions<br>
+  • 🔨 Intervention: during implementation of regenerative tourism strategies<br>
+  • 🌱 Post-intervention: to assess outcomes over time<br>
 </ol>
-
+<br>
 📦 Monthly PlanetScope imagery was gathered for each tourism corridor, following two key quality criteria:
 <ol>
-   • ☁️ **Cloud Coverage**: imagery with more than 10% cloud coverage over the full corridor extent was excluded to avoid noise in NDVI and temporal trends.
-
-   • ✅ **Visual Validation**: for each corridor and month, a checklist was produced with the following outputs:
+   • ☁️ **Cloud Coverage**: imagery with more than 10% cloud coverage over the full corridor extent was excluded to avoid noise in NDVI and temporal trends.<br>
+   • ✅ **Visual Validation**: for each corridor and month, a checklist was produced with the following outputs:<br>
    <ul>
-      - A link to visually inspect each tile over the corridor  
-      - An "R" tag marking scenes with <10% cloud presence that might still affect NDVI calculations  
-      - Notes indicating months with no usable data, justifying their exclusion from temporal analysis
+      - A link to visually inspect each tile over the corridor<br>  
+      - An "R" tag marking scenes with <10% cloud presence that might still affect NDVI calculations<br>  
+      - Notes indicating months with no usable data, justifying their exclusion from temporal analysis<br>
    </ul>
 </ol>
-
+<br>
 📝 Note:  
 This visual and quantitative vetting process helped ensure that temporal gaps were transparently documented, and that remaining imagery provided a consistent and reliable input for monitoring vegetation change.
 
@@ -71,6 +70,7 @@ flowchart LR
     end
 
     A1 --> B1 --> C1
+```
 </ol>
 </details>
 

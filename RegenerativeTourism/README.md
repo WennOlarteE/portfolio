@@ -120,6 +120,9 @@ flowchart LR
 
 [🔗 View the study area delimitation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md).
 
+💻 The full code used in this section is available at the following link:  
+[🔗 Explore the full clipping workflow in this markdown](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md)
+
 </ol>
 </details>
 

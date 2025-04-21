@@ -114,6 +114,7 @@ flowchart LR
     A1 --> B1 --> C1 --> D1
 ```
 📷 Below is a preview of the resulting raster after clipping the mosaic with the corridor shapefile:
+![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/2_ClippedMosaic.png)
 
 [🔗 View the study area delimitation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md).
    

@@ -40,7 +40,7 @@ DAI, USAID's Destination Nature Activity
 <br>
 <ol>
 To prepare the satellite imagery for analysis, the individual PlanetScope tiles downloaded for each tourism corridor were first merged into a single raster mosaic. This preprocessing step ensures all tiles are spatially aligned and simplifies subsequent workflows by reducing the number of input files.
-<br>
+<br><br>
 This step has two main objectives:
 <ol>
    • 🧩 Integration: unify fragmented tiles into a seamless mosaic for the full corridor extent.<br>
@@ -72,8 +72,8 @@ flowchart LR
 
     A1 --> B1 --> C1 --> D1
 ```
-📷 Below is an example of the resulting mosaic raster for one of the regenerative tourism corridors:<br><br><br>
-![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/2_ClippedMosaic.png)<br>
+📷 Below is an example of the resulting mosaic raster for one of the regenerative tourism corridors:<br><br>
+![alt text](https://github.com/WennOlarteE/portfolio/blob/main/Mosaico.png)<br>
 
 💻 Want to explore the code behind this step? Check out the Jupyter Notebook:
 [🔗 View the mosaic generation code](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md).

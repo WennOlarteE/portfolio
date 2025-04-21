@@ -140,3 +140,32 @@ DAI, USAID's Destination Nature Activity
 - The entire workflow is scalable and adaptable to other contexts involving nature-based interventions. <br>
 </ol>
 
+
+## 🛠️ Procesamiento de NDVI
+
+```mermaid
+graph LR
+    A[Tiles PlanetScope] --> B[Mosaico]
+    B --> C[Recorte]
+    C --> D[NDVI]
+    D --> E[Estadísticas]
+    D --> F[Visualización]
+```
+
+### 🔧 Funciones Clave
+
+<details>
+<summary><b>unir_tiles()</b></summary>
+
+```python
+def unir_tiles(folder_path):
+    # Código completo...
+```
+
+**Propósito:** Combina múltiples tiles en un mosaico continuo  
+**Entradas:** Carpeta con imágenes .tif  
+**Salidas:** Mosaico temporal (temp_mosaic.tif)
+</details>
+
+[▶️ Ver todos los detalles de procesamiento](#procesamiento-completo)
+

@@ -39,7 +39,7 @@ DAI, USAID's Destination Nature Activity
 <summary>2. Mosaic generation</summary>
 <br>
 <ol>
-   - Union of the unit downloaded images to create seamless image coverage with precise spatial alignment.
+   - Union of the unit downloaded images to create seamless image coverage with precise spatial alignment. <br>
    ![Alt text here](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGen.drawio.png)
 
 </ol>

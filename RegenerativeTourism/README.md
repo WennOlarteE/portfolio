@@ -47,7 +47,7 @@ DAI, USAID's Destination Nature Activity
 ```mermaid
 
 flowchart LR
-    subgraph A[📥 Input]
+    subgraph A[<br>📥 Input]
         A1["Monthly normalized PlanetScope tiles (.tif)"]
     end
 

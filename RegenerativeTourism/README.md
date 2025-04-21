@@ -78,8 +78,16 @@ flowchart LR
 <summary>3. Study Area Delimitation</summary>
 <br>
 <ol>
-   - Used vector shapefiles to clip mosaics to the extent of each corridor.<br>
 
+To ensure that all subsequent analyses focus solely on the relevant geographic extent, the temporary mosaic created in the previous step was clipped using the shapefile corresponding to the regenerative tourism corridor.
+
+This step serves two main purposes:
+
+• 🎯 Spatial focus: removing irrelevant surroundings and keeping only the core study area.
+
+•⚡ Performance optimization: reducing processing load for large-scale modeling.
+
+📷 Below is a preview of the resulting raster after clipping the mosaic with the corridor shapefile:
 ```mermaid
 
 flowchart LR

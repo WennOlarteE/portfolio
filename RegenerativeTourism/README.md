@@ -75,7 +75,7 @@ flowchart LR
     end
 
     subgraph B[⚙️ Processing]
-        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif<br><br>[🔗 View Code](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md)"]
+        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif<br><br>[View Code](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md)"]
     end
 
     subgraph C[📤 Output]

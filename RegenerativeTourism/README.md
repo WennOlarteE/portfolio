@@ -101,7 +101,7 @@ flowchart LR
 
     A1 --> B1 --> C1 --> D1
 ```
-[🔗 View the atudy area delimitation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md).
+[🔗 View the study area delimitation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md).
    
 </ol>
 </details>

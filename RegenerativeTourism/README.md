@@ -79,7 +79,30 @@ flowchart LR
 <br>
 <ol>
    - Used vector shapefiles to clip mosaics to the extent of each corridor.<br>
-   - Masked out urban zones and water bodies to focus on vegetated areas.  
+
+```mermaid
+
+flowchart LR
+    subgraph A[📥 Input]
+        A1["• Temporary mosaic generated in the previous step (GeoTIFF format)<br>• Shapefile delimiting the tourism corridor"]
+    end
+
+    subgraph B[⚙️ Processing]
+        B1["• Uses GDAL Warp to clip the mosaic with the shapefile<br>• Applies exact masking (cropToCutline=True) to restrict output strictly to the corridor<br>• Sets NoData value to -9999 for excluded areas<br>• Enables multithreaded processing for efficiency<br>• Maintains Float32 data type for optimized performance with large datasets<br>"]
+    end
+
+    subgraph C[📤 Analysis]
+        C1["• Removes irrelevant areas outside the corridor, improving analytical focus<br>•Optimizes computational resources via parallel processing<br>•Preserves metadata integrity and precision for further modeling"]
+    end
+
+    subgraph D[📤 Output]
+        D1["Clipped GeoTIFF raster containing only the target corridor area"]
+    end
+
+    A1 --> B1 --> C1 --> D1
+```
+
+   
 </ol>
 </details>
 

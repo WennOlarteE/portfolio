@@ -66,7 +66,7 @@ flowchart LR
     end
 
     subgraph C[📋 Output]
-        C1["• Curated list of valid monthly images per corridor<br>• Checklist with links, cloud tags, and missing data notes"]
+        C1["• Folder with individual PlanetScope tiles (GeoTIFFs)<br>• Curated list of valid monthly images per corridor<br>• Checklist with links, cloud tags, and missing data notes"]
     end
 
     A1 --> B1 --> C1

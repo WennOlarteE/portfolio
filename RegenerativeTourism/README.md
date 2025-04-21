@@ -89,7 +89,7 @@ This step serves two main purposes:
 </ol>
 📝 Note:
 Setting a NoData value (-9999) ensures that masked-out areas are excluded from subsequent analyses. This avoids distortions in calculations such as NDVI, where undefined pixels could otherwise bias results or trigger processing errors.
-
+<br>
 🔄 Process Diagram
 
 ```mermaid

@@ -113,10 +113,7 @@ flowchart LR
 
     A1 --> B1 --> C1 --> D1
 ```
-📷 Below is a preview of the resulting raster after clipping the mosaic with the corridor shapefile:<br><br>
-<img src="https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/2_ClippedMosaic.png" alt="Alt Text" width="500" height="400">
-<br>
-<br><br><br>
+📷 Below is a preview of the resulting raster after clipping the mosaic with the corridor shapefile:<br><br><br>
 ![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/2_ClippedMosaic.png)<br>
 
 [🔗 View the study area delimitation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md).

@@ -44,29 +44,6 @@ DAI, USAID's Destination Nature Activity
 <br>
 <br>
 
-
-
-```mermaid
-flowchart LR
-    subgraph A[📥 Input]
-        A1["Monthly normalized PlanetScope tiles (.tif)"]
-    end
-
-    subgraph B[⚙️ Processing]
-        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif"]
-    end
-
-    subgraph C[📤 Output]
-        C1["Temporary GeoTIFF mosaic<br>with spatial continuity"]
-    end
-
-    A1 --> B1 --> C1
-```
-
-
-
-
-
 ```mermaid
 
 flowchart LR
@@ -75,7 +52,7 @@ flowchart LR
     end
 
     subgraph B[⚙️ Processing]
-        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif<br><br>[View Code](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md)"]
+        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif<br><br>[View Code](RegenerativeTourism/MosaicGeneration.md)"]
     end
 
     subgraph C[📤 Output]

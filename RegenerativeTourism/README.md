@@ -66,6 +66,22 @@ flowchart LR
 
     A1 --> B1 --> B2 --> B3 --> B4 --> B5 --> C1 --> C2
 ```
+```mermaid
+flowchart LR
+    subgraph A[📥 Input]
+        A1["Monthly normalized PlanetScope tiles (.tif)"]
+    end
+
+    subgraph B[⚙️ Processing]
+        B1["• List .tif files<br>• Open with rasterio<br>• Merge using merge()<br>• Update metadata<br>• Save temp_mosaic.tif"]
+    end
+
+    subgraph C[📤 Output]
+        C1["Temporary GeoTIFF mosaic<br>with spatial continuity"]
+    end
+
+    A1 --> B1 --> C1
+```
 
 
 </ol>

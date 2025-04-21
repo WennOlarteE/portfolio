@@ -29,8 +29,48 @@ DAI, USAID's Destination Nature Activity
 <summary>1. Context Review & Data Gathering</summary>
 <br>
 <ol>
-   - Defined relevant timeframes for baseline, intervention, and post-intervention analysis.<br>
-   - Collected and normalized monthly PlanetScope imagery for each tourism corridor.<br>
+
+Before diving into the analytical workflow, the project began with a context review and the careful selection of satellite imagery.
+
+This step laid the groundwork for spatial and temporal consistency throughout the monitoring process. Three distinct timeframes were defined to guide the analysis:
+<ol>
+  • ⏳ Baseline: captures pre-intervention conditions  
+  • 🔨 Intervention: during implementation of regenerative tourism strategies  
+  • 🌱 Post-intervention: to assess outcomes over time
+</ol>
+
+📦 Monthly PlanetScope imagery was gathered for each tourism corridor, following two key quality criteria:
+<ol>
+   • ☁️ **Cloud Coverage**: imagery with more than 10% cloud coverage over the full corridor extent was excluded to avoid noise in NDVI and temporal trends.
+
+   • ✅ **Visual Validation**: for each corridor and month, a checklist was produced with the following outputs:
+   <ul>
+      - A link to visually inspect each tile over the corridor  
+      - An "R" tag marking scenes with <10% cloud presence that might still affect NDVI calculations  
+      - Notes indicating months with no usable data, justifying their exclusion from temporal analysis
+   </ul>
+</ol>
+
+📝 Note:  
+This visual and quantitative vetting process helped ensure that temporal gaps were transparently documented, and that remaining imagery provided a consistent and reliable input for monitoring vegetation change.
+
+<br>🔄 Process Diagram
+
+```mermaid
+flowchart LR
+    subgraph A[📥 Input]
+        A1["• Monthly PlanetScope catalog<br>• Regenerative tourism corridor shapefiles"]
+    end
+
+    subgraph B[⚙️ Processing]
+        B1["• Define analysis periods<br>• Filter imagery by cloud coverage over corridor extent<br>• Perform visual validation and tagging"]
+    end
+
+    subgraph C[📋 Output]
+        C1["• Curated list of valid monthly images per corridor<br>• Checklist with links, cloud tags, and missing data notes"]
+    end
+
+    A1 --> B1 --> C1
 </ol>
 </details>
 

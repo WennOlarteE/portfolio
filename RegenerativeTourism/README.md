@@ -44,8 +44,28 @@ DAI, USAID's Destination Nature Activity
 <br>
 <br>
 
-![Alt text here](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGen.drawio.png)
 
+```mermaid
+flowchart LR
+    subgraph A[📥 Input]
+        A1["Monthly normalized PlanetScope tiles (.tif)"]
+    end
+
+    subgraph B[⚙️ Processing]
+        B1["List .tif files"]
+        B2["Open with rasterio"]
+        B3["Merge using merge()"]
+        B4["Update metadata"]
+        B5["Save temp_mosaic.tif"]
+    end
+
+    subgraph C[📤 Output]
+        C1["Temporary GeoTIFF mosaic"]
+        C2["Ensures spatial continuity"]
+    end
+
+    A1 --> B1 --> B2 --> B3 --> B4 --> B5 --> C1 --> C2
+```
 
 
 </ol>
@@ -151,33 +171,4 @@ DAI, USAID's Destination Nature Activity
 - The entire workflow is scalable and adaptable to other contexts involving nature-based interventions. <br>
 </ol>
 
-```mermaid
-graph LR
-    A[Tiles PlanetScope] --> B[Mosaico]
-    B --> C[Recorte]
-    C --> D[NDVI]
-    D --> E[Estadísticas]
-    D --> F[Visualización]
-```
 
-```mermaid
-flowchart LR
-    subgraph A[📥 Input]
-        A1["Monthly normalized PlanetScope tiles (.tif)"]
-    end
-
-    subgraph B[⚙️ Processing]
-        B1["List .tif files"]
-        B2["Open with rasterio"]
-        B3["Merge using merge()"]
-        B4["Update metadata"]
-        B5["Save temp_mosaic.tif"]
-    end
-
-    subgraph C[📤 Output]
-        C1["Temporary GeoTIFF mosaic"]
-        C2["Ensures spatial continuity"]
-    end
-
-    A1 --> B1 --> B2 --> B3 --> B4 --> B5 --> C1 --> C2
-```

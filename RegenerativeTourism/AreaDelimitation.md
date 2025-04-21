@@ -32,11 +32,10 @@ fn_clip = "Path to save the clipped raster (e.g., clipped_corridor.tif)"
 # Clip the temporary mosaic using a shapefile of the study area (tourism corridor).
     
 #    Processing steps:
-#    - Uses GDAL Warp to clip the mosaic with the shapefile
-#    - Applies exact masking (cropToCutline=True) to restrict the output to the corridor
-#    - Sets NoData value to -9999 for excluded pixels
-#    - Enables multithreaded processing for better performance
-#    - Ensures the output data type is Float32 (optimal for large geospatial datasets)
+#    - Use GDAL Warp to apply exact clipping based on the vector geometry
+#    - Enable multithreading for better performance
+#    - Set NoData value to -9999 to exclude masked areas from future analyses
+#    - Output a Float32 raster optimized for large-scale spatial operations
 
 
 def cortar_mosaico(temp_path, fn_poly, fn_clip):

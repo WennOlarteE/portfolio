@@ -117,9 +117,9 @@ flowchart LR
 ![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/2_ClippedMosaic.png)<br>
 
 💻 Code
-
+<ol>
 [🔗 View the study area delimitation code in the Jupyter Notebook](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md).
-   
+</ol>
 </ol>
 </details>
 

@@ -28,35 +28,20 @@ DAI, USAID's Destination Nature Activity
 <details>
 <summary>1. Context Review & Data Gathering</summary>
 <br>
-<ol>
-
-Before diving into the analytical workflow, the project began with a context review and the careful selection of satellite imagery.
-
-This step laid the groundwork for spatial and temporal consistency throughout the monitoring process. Three distinct timeframes were defined to guide the analysis:
-<ol>
-  • ⏳ Baseline: captures pre-intervention conditions<br>
-  • 🔨 Intervention: during implementation of regenerative tourism strategies<br>
-  • 🌱 Post-intervention: to assess outcomes over time<br>
-</ol>
-
-<br><br><br><br><br>
-1. Context Review & Data Gathering
-<br>
-<ol>
 
 The monitoring process began with a spatial and temporal framing of the study. Three timeframes were defined to capture changes in vegetation linked to regenerative tourism efforts:
 <ol>
-  • ⏳ Baseline (pre-intervention)  
-  • 🔨 Implementation (during intervention)  
-  • 🌱 Post-intervention (outcome assessment)
+  • ⏳ Baseline (pre-intervention) <br>
+  • 🔨 Implementation (during intervention) <br>  
+  • 🌱 Post-intervention (outcome assessment)<br>
 </ol>
 
 To support this, monthly PlanetScope imagery was gathered for each tourism corridor. Only scenes with **less than 10% cloud coverage across the entire corridor extent** were considered valid. This threshold helped minimize noise in future NDVI calculations and ensured data consistency.
 
-A structured validation process was implemented to transparently track usable and missing data:
+A structured validation process was implemented to transparently track usable and missing data:<br>
 <ol>
-   • ✅ Each month-corridor combination was reviewed.  
-   • 🔗 A checklist was produced with image links, cloud flags (when <10% cloud presence might still affect NDVI), and notes justifying temporal gaps.
+   • ✅ Each month-corridor combination was reviewed.<br>  
+   • 🔗 A checklist was produced with image links, cloud flags (when <10% cloud presence might still affect NDVI), and notes justifying temporal gaps.<br>
 </ol>
 
 📝 Note:  

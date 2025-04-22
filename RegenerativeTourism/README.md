@@ -201,7 +201,7 @@ flowchart LR
 
     A1 --> B1 --> C1 --> D1
 ```
-📷 A sample output of the NDVI raster is shown below to illustrate vegetation distribution across one of the study corridors:<br><br><br>
+📷 A sample output of the NDVI raster is shown below to illustrate vegetation distribution across one of the study corridors:<br><br>
 
 ![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/3_NDVI_value.png)<br>
 

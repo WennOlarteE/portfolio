@@ -22,7 +22,6 @@ DAI, USAID's Destination Nature Activity
 </ol>
 
 ### 💻 How it was done (Methodological Workflow)
-<br>
 <ol>
    
 <details>
@@ -70,7 +69,7 @@ flowchart LR
 
    
 <details>
-<summary>2. Mosaic generation</summary>
+<summary>2. Building the Mosaic</summary>
 <br>
 <ol>
 To prepare the satellite imagery for analysis, the individual PlanetScope tiles downloaded for each tourism corridor were first merged into a single raster mosaic. This preprocessing step ensures all tiles are spatially aligned and simplifies subsequent workflows by reducing the number of input files.
@@ -119,7 +118,7 @@ flowchart LR
 
 
 <details>
-<summary>3. Study Area Delimitation</summary>
+<summary>3. Defining the Study Area</summary>
 <br>
 <ol>
 
@@ -182,7 +181,7 @@ flowchart LR
 
 
 <details>
-<summary>5. Exploratory Statistics & Visualization</summary>
+<summary>5. Exploring Patterns & Visual Insights</summary>
 <br>
 <ol>
 - Extracted metrics per pixel and corridor level:<br>
@@ -201,7 +200,7 @@ flowchart LR
 
 
 <details>
-<summary>6. Annual Processing & Spatial Modeling</summary>
+<summary>6. Annual Trends & Spatial Modeling</summary>
 <br>
 <ol>
 - Generated yearly NDVI composites and standardized resolutions.<br>

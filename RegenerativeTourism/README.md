@@ -36,7 +36,7 @@ The monitoring process began with a spatial and temporal framing of the study. T
 </ol>
 <br>
 To support this, monthly PlanetScope imagery was gathered for each tourism corridor. Only scenes with **less than 10% cloud coverage across the entire corridor extent** were considered valid. This threshold helped minimize noise in future NDVI calculations and ensured data consistency.
-<br>
+<br><br>
 A structured validation process was implemented to transparently track usable and missing data:<br>
 <ol>
    • ✅ Each month-corridor combination was reviewed.<br>  
@@ -171,11 +171,42 @@ flowchart LR
 <summary>4. NDVI Calculation</summary>
 <br>
 <ol>
-- Computed monthly NDVI to assess vegetation health:<br>
-<ol>
-   - High NDVI → Dense, healthy vegetation<br>
-   - Low NDVI → Bare soil or water
+To quantify vegetation health and distribution, the Normalized Difference Vegetation Index (NDVI) was calculated using the clipped PlanetScope mosaics. This spectral index provides insight into vegetation dynamics by comparing reflectance in the red and near-infrared (NIR) bands.
+
+This step has two main objectives:
+
+<ol>🍃 • Detect the presence and vigor of vegetation across the study area.<br>🔬 • Generate NDVI rasters for each corridor and month to support temporal ecological analysis.<br>🔍 • Ensure reliable calculations by handling edge cases and maintaining geospatial consistency. </ol><br><br>
+📝 Note: <br>
+To prevent mathematical errors and ensure analytical robustness, a small constant (+1e-10) is added to the NDVI formula denominator. This avoids division by zero and preserves valid NoData values (-9999), which were defined during the clipping stage. These safeguards are essential to avoid skewed vegetation metrics or unintended artifacts in later modeling steps.
 </ol>
+
+<br>🔄 Process Diagram
+
+```mermaid
+flowchart LR
+    subgraph A[📥 Input]
+        A1["• Clipped mosaic from the previous step (GeoTIFF format)<br>• Band 3 = Red, Band 4 = Near Infrared (NIR)"]
+    end
+
+    subgraph B[⚙️ Processing]
+        B1["• Reads spectral bands using Rasterio<br>• Applies mask to remove invalid or NoData pixels<br>• Computes NDVI = (NIR - Red)/(NIR + Red + 1e-10)<br>• Preserves metadata and geospatial reference<br>• Saves output as single-band raster"]
+    end
+
+    subgraph C[📤 Analysis]
+        C1["• NDVI values range from -1 to 1:<br>  0.6 ➝ Dense vegetation<br>  0.2–0.5 ➝ Moderate vegetation<br>  < 0 ➝ Water or bare soil<br><br>• Output ready for visualization and modeling"]
+    end
+
+    subgraph D[📤 Output]
+        D1["NDVI raster layer (.tif)"]
+    end
+
+    A1 --> B1 --> C1 --> D1
+```
+📷 A sample output of the NDVI raster is shown below to illustrate vegetation distribution across one of the study corridors:<br><br><br>
+
+📁 🔗 View the NDVI calculation code in the Jupyter Notebook
+
+
 </ol>
 </details>
 

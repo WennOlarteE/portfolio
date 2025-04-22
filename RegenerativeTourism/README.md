@@ -205,7 +205,8 @@ flowchart LR
 
 ![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/3_NDVI_value.png)<br>
 
-📁 🔗 View the NDVI calculation code in the Jupyter Notebook
+💻 The full code used in this section is available at the following link:  
+[🔗 Explore the full NDVI calculation workflow in this markdown](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/NDVI_Calculation.md)
 
 </ol>
 </details>

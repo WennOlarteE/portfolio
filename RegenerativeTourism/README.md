@@ -39,8 +39,8 @@ This step laid the groundwork for spatial and temporal consistency throughout th
   • 🌱 Post-intervention: to assess outcomes over time<br>
 </ol>
 
-<details>
-<summary>1. Context Review & Data Gathering</summary>
+<br><br><br><br><br>
+1. Context Review & Data Gathering
 <br>
 <ol>
 

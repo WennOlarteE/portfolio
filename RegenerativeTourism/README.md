@@ -35,7 +35,7 @@ The monitoring process began with a spatial and temporal framing of the study. T
   • 🔨 Implementation (during intervention) <br>  
   • 🌱 Post-intervention (outcome assessment)<br>
 </ol>
-https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/README.md
+<br>
 To support this, monthly PlanetScope imagery was gathered for each tourism corridor. Only scenes with **less than 10% cloud coverage across the entire corridor extent** were considered valid. This threshold helped minimize noise in future NDVI calculations and ensured data consistency.
 
 A structured validation process was implemented to transparently track usable and missing data:<br>
@@ -65,7 +65,7 @@ flowchart LR
 
     A1 --> B1 --> C1
 ```
-</ol>
+
 </details>
 
    

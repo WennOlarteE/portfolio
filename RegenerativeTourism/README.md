@@ -38,6 +38,48 @@ This step laid the groundwork for spatial and temporal consistency throughout th
   • 🔨 Intervention: during implementation of regenerative tourism strategies<br>
   • 🌱 Post-intervention: to assess outcomes over time<br>
 </ol>
+
+<details>
+<summary>1. Context Review & Data Gathering</summary>
+<br>
+<ol>
+
+The monitoring process began with a spatial and temporal framing of the study. Three timeframes were defined to capture changes in vegetation linked to regenerative tourism efforts:
+<ol>
+  • ⏳ Baseline (pre-intervention)  
+  • 🔨 Implementation (during intervention)  
+  • 🌱 Post-intervention (outcome assessment)
+</ol>
+
+To support this, monthly PlanetScope imagery was gathered for each tourism corridor. Only scenes with **less than 10% cloud coverage across the entire corridor extent** were considered valid. This threshold helped minimize noise in future NDVI calculations and ensured data consistency.
+
+A structured validation process was implemented to transparently track usable and missing data:
+<ol>
+   • ✅ Each month-corridor combination was reviewed.  
+   • 🔗 A checklist was produced with image links, cloud flags (when <10% cloud presence might still affect NDVI), and notes justifying temporal gaps.
+</ol>
+
+📝 Note:  
+This transparent verification ensured high-quality imagery inputs while documenting limitations openly—a key practice in responsible environmental monitoring.
+
+<br>🔄 Process Diagram
+
+```mermaid
+flowchart LR
+    subgraph A[📥 Input]
+        A1["• Monthly PlanetScope catalog<br>• Regenerative tourism corridor shapefiles"]
+    end
+
+    subgraph B[⚙️ Processing]
+        B1["• Define analysis periods<br>• Filter imagery by <10% cloud coverage per corridor<br>• Validate and tag data availability"]
+    end
+
+    subgraph C[📋 Output]
+        C1["• Curated list of valid images<br>• Checklist with links, cloud flags, and gap justifications"]
+    end
+
+    A1 --> B1 --> C1
+```
 <br>
 📦 Monthly PlanetScope imagery was gathered for each tourism corridor, following two key quality criteria:<br>
 <ol>

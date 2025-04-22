@@ -35,7 +35,7 @@ The monitoring process began with a spatial and temporal framing of the study. T
   • 🔨 Implementation (during intervention) <br>  
   • 🌱 Post-intervention (outcome assessment)<br>
 </ol>
-
+https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/README.md
 To support this, monthly PlanetScope imagery was gathered for each tourism corridor. Only scenes with **less than 10% cloud coverage across the entire corridor extent** were considered valid. This threshold helped minimize noise in future NDVI calculations and ensured data consistency.
 
 A structured validation process was implemented to transparently track usable and missing data:<br>
@@ -43,42 +43,9 @@ A structured validation process was implemented to transparently track usable an
    • ✅ Each month-corridor combination was reviewed.<br>  
    • 🔗 A checklist was produced with image links, cloud flags (when <10% cloud presence might still affect NDVI), and notes justifying temporal gaps.<br>
 </ol>
-
+<br>
 📝 Note:  
 This transparent verification ensured high-quality imagery inputs while documenting limitations openly—a key practice in responsible environmental monitoring.
-
-<br>🔄 Process Diagram
-
-```mermaid
-flowchart LR
-    subgraph A[📥 Input]
-        A1["• Monthly PlanetScope catalog<br>• Regenerative tourism corridor shapefiles"]
-    end
-
-    subgraph B[⚙️ Processing]
-        B1["• Define analysis periods<br>• Filter imagery by <10% cloud coverage per corridor<br>• Validate and tag data availability"]
-    end
-
-    subgraph C[📋 Output]
-        C1["• Curated list of valid images<br>• Checklist with links, cloud flags, and gap justifications"]
-    end
-
-    A1 --> B1 --> C1
-```
-<br>
-📦 Monthly PlanetScope imagery was gathered for each tourism corridor, following two key quality criteria:<br>
-<ol>
-   • ☁️ Cloud Coverage: imagery with more than 10% cloud coverage over the full corridor extent was excluded to avoid noise in NDVI and temporal trends.<br>
-   • ✅ Visual Validation: for each corridor and month, a checklist was produced with the following outputs:<br>
-   <ul>
-      - A link to visually inspect each tile over the corridor<br>  
-      - An "R" tag marking scenes with <10% cloud presence that might still affect NDVI calculations<br>  
-      - Notes indicating months with no usable data, justifying their exclusion from temporal analysis<br>
-   </ul>
-</ol>
-<br>
-📝 Note:  
-This visual and quantitative vetting process helped ensure that temporal gaps were transparently documented, and that remaining imagery provided a consistent and reliable input for monitoring vegetation change.
 
 <br>🔄 Process Diagram
 

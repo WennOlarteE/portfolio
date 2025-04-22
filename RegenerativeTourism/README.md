@@ -106,10 +106,10 @@ flowchart LR
     A1 --> B1 --> C1 --> D1
 ```
 📷 Below is an example of the resulting mosaic raster for one of the regenerative tourism corridors:<br><br>
-![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Mosaico.png)<br>
+![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Images/1_Mosaic.png)<br>
 
 💻 Want to explore the code behind this step? Check out the Jupyter Notebook:
-[🔗 View the mosaic generation code](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/MosaicGeneration.md).
+[🔗 View the mosaic generation code](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Code/1_MosaicGeneration.md).
 
 </ol>
 
@@ -157,11 +157,11 @@ flowchart LR
     A1 --> B1 --> C1 --> D1
 ```
 📷 Below is a preview of one output tile resulting from the clipping process. This image is provided as an example; the full analysis included multiple mosaics across various corridors.<br><br>
-![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/2_ClippedMosaic.png)<br>
+![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Images/2_ClippedMosaic.png)<br>
 
 
 💻 The full code used in this section is available at the following link:  
-[🔗 Explore the full clipping workflow in this markdown](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/AreaDelimitation.md)
+[🔗 Explore the full clipping workflow in this markdown](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Code/2_AreaDelimitation.md)
 
 </ol>
 </details>
@@ -203,10 +203,10 @@ flowchart LR
 ```
 📷 A sample output of the NDVI raster is shown below to illustrate vegetation distribution across one of the study corridors:<br><br>
 
-![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/3_NDVI_value.png)<br>
+![alt text](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Images/3_NDVI_value.png)<br>
 
 💻 The full code used in this section is available at the following link:  
-[🔗 Explore the full NDVI calculation workflow in this markdown](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/NDVI_Calculation.md)
+[🔗 Explore the full NDVI calculation workflow in this markdown](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/Code/3_NDVI_Calculation.md)
 
 </ol>
 </details>

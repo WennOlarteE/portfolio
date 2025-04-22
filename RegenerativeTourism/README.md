@@ -39,7 +39,7 @@ This step laid the groundwork for spatial and temporal consistency throughout th
   • 🌱 Post-intervention: to assess outcomes over time<br>
 </ol>
 <br>
-📦 Monthly PlanetScope imagery was gathered for each tourism corridor, following two key quality criteria:
+📦 Monthly PlanetScope imagery was gathered for each tourism corridor, following two key quality criteria:<br>
 <ol>
    • ☁️ Cloud Coverage: imagery with more than 10% cloud coverage over the full corridor extent was excluded to avoid noise in NDVI and temporal trends.<br>
    • ✅ Visual Validation: for each corridor and month, a checklist was produced with the following outputs:<br>

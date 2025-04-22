@@ -37,7 +37,7 @@ The monitoring process began with a spatial and temporal framing of the study. T
 </ol>
 <br>
 To support this, monthly PlanetScope imagery was gathered for each tourism corridor. Only scenes with **less than 10% cloud coverage across the entire corridor extent** were considered valid. This threshold helped minimize noise in future NDVI calculations and ensured data consistency.
-
+<br>
 A structured validation process was implemented to transparently track usable and missing data:<br>
 <ol>
    • ✅ Each month-corridor combination was reviewed.<br>  
@@ -56,11 +56,11 @@ flowchart LR
     end
 
     subgraph B[⚙️ Processing]
-        B1["• Define analysis periods<br>• Filter imagery by cloud coverage over corridor extent<br>• Perform visual validation and tagging"]
+        B1["• Define analysis periods<br>• Filter imagery by <10% cloud coverage per corridor<br>• Validate and tag data availability"]
     end
 
     subgraph C[📋 Output]
-        C1["• Folder with individual PlanetScope tiles (GeoTIFFs)<br>• Curated list of valid monthly images per corridor<br>• Checklist with links, cloud tags, and missing data notes"]
+        C1["• Checklist with image links, cloud flags, and gap justifications<br>• Folder with PlanetScope tiles (GeoTIFFs)<br>• Final curated list of valid imagery"]
     end
 
     A1 --> B1 --> C1

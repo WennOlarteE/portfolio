@@ -172,9 +172,9 @@ flowchart LR
 <br>
 <ol>
 To quantify vegetation health and distribution, the Normalized Difference Vegetation Index (NDVI) was calculated using the clipped PlanetScope mosaics. This spectral index provides insight into vegetation dynamics by comparing reflectance in the red and near-infrared (NIR) bands.
-<br>
+<br><br>
 This step has two main objectives:
-
+<br>
 <ol>• 🍃 Detect the presence and vigor of vegetation across the study area.<br> • 🔬 Generate NDVI rasters for each corridor and month to support temporal ecological analysis.<br> • 🔍 Ensure reliable calculations by handling edge cases and maintaining geospatial consistency. </ol><br>
 📝 Note: <br>
 To prevent mathematical errors and ensure analytical robustness, a small constant (+1e-10) is added to the NDVI formula denominator. This avoids division by zero and preserves valid NoData values (-9999), which were defined during the clipping stage. These safeguards are essential to avoid skewed vegetation metrics or unintended artifacts in later modeling steps.

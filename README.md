@@ -20,16 +20,16 @@ Each project reflects my commitment to using spatial data for actionable insight
 | Project | Description | Tools | Visual Outputs |
 |--------|-------------|-------|----------------|
 | [`Monitoring ecological change in regenerative tourism sites`](https://github.com/WennOlarteE/portfolio/blob/main/RegenerativeTourism/README.md) | Developed a reproducible methodology using NDVI and SAR-based spatial regression models (SAR) to evaluate ecological impact over time—strengthening the monitoring and adaptive management of a regenerative tourism program. (USAID - Destino Naturaleza) | Python (GeoPandas, rasterio, NumPy, matplotlib), Jupyter | Reproducible notebook, graphs of vegetation trends, spatial regression outputs |
-| [`Strategic land use mapping in páramo ecosystems`](./guardianas-paramo) | Multitemporal land cover and land use analysis (2000–2024) in the Pisba páramo. Identified land use conflicts and priority areas for conservation and economic transformation. | ArcGIS Pro, QGIS, Adobe Illustrator | Maps for policy and community use, technical report |
+| [`Strategic land use mapping in páramo ecosystems`](https://github.com/WennOlarteE/portfolio/blob/main/Default.md) | Multitemporal land cover and land use analysis (2000–2024) in the Pisba páramo. Identified land use conflicts and priority areas for conservation and economic transformation. | ArcGIS Pro, QGIS, Adobe Illustrator | Maps for policy and community use, technical report |
 
 
 ## 🌍 Humanitarian & Social Research
 
 | Project | Description | Tools | Visual Outputs |
 |--------|-------------|-------|----------------|
-| [`Spatial clustering for migrant vulnerability targeting`](./migrant-cluster-analysis) | Identified intervention clusters based on settlement patterns of vulnerable migrant populations. Supported strategic planning and collaboration routes for socio-economic integration services. | ArcGIS Pro, Power BI, KoboToolbox | Strategic maps, dashboards, infographics, MEL visuals |
-| [`Spatial patterns of violence against LGBT+ populations`](./violence-lgbti-analysis) | Spatial analysis of violence against LGBTI persons in Colombia. Explored correlations with multidimensional poverty indicators and early warnings. | ArcGIS, R, Stata | Statistical and thematic maps |
-| [`Socio-environmental analysis of riverbed transformations`](./violence-lgbti-analysis) | Multitemporal evaluation of the influence of socioeconomic dynamics on water bodies. Supported legal and environmental research.| ArcGIS Pro, Office, GPS | Thematic maps, exploratory data analysis outputs |
+| [`Spatial clustering for migrant vulnerability targeting`](https://github.com/WennOlarteE/portfolio/blob/main/Default.md) | Identified intervention clusters based on settlement patterns of vulnerable migrant populations. Supported strategic planning and collaboration routes for socio-economic integration services. | ArcGIS Pro, Power BI, KoboToolbox | Strategic maps, dashboards, infographics, MEL visuals |
+| [`Spatial patterns of violence against LGBT+ populations`](https://github.com/WennOlarteE/portfolio/blob/main/Default.md) | Spatial analysis of violence against LGBTI persons in Colombia. Explored correlations with multidimensional poverty indicators and early warnings. | ArcGIS, R, Stata | Statistical and thematic maps |
+| [`Socio-environmental analysis of riverbed transformations`](https://github.com/WennOlarteE/portfolio/blob/main/Default.md) | Multitemporal evaluation of the influence of socioeconomic dynamics on water bodies. Supported legal and environmental research.| ArcGIS Pro, Office, GPS | Thematic maps, exploratory data analysis outputs |
 
 
 
